@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body background="image/foo.jpeg">
+        <h4> <a href="foodmenu.html">Click here for more details</a> </h4>
+ <center>
+        <font size="10" color="lightgrey" face="Cooper">FOOD </font>
+        <br> <br> <br>
+          <div class="container">
+    
+        <form class="form-horizontal" action="food" method="post">
+            <font color="white">
+             <div class="form-group">  
+                 
+    <label class="control-label col-md-4" for="bf">Breakfast:</label>
+      <div class="col-md-5">
+      <select class="form-control" id="bf" name="bf">
+          <option value="----">---select---</option>
+          <option value="Royal">Royal</option>
+        <option value="Deluxe">Deluxe</option>
+        <option value="Normal">Normal</option>
+      </select>
+          </div>
+             </div>
+      
+           <div class="form-group">         
+     <label class="control-label col-md-4" for="lunch">Lunch:</label>
+      <div class="col-md-5">
+      <select class="form-control" id="lunch" name="lunch">
+          <option value="----">---select---</option>
+         <option value="Royal">Royal</option>
+        <option value="Deluxe">Deluxe</option>
+        <option value="Normal">Normal</option>
+      </select>
+          </div>
+           </div>
+     
+                  <div class="form-group">         
+      <label class="control-label col-md-4" for="dinner">Dinner:</label>
+      <div class="col-md-5">
+      <select class="form-control" id="dinner" name="dinner">
+          <option value="----">---select---</option>
+        <option value="Royal">Royal</option>
+        <option value="Deluxe">Deluxe</option>
+        <option value="Normal">Normal</option>
+      </select>
+          </div>
+                  </div>
+                   
+      <div class="form-group">         
+               <label class="control-label col-md-4" for="snacks">Tea and Snacks:</label>
+      <div class="col-md-5">
+      <select class="form-control" id="snacks" name="snacks">
+           <option value="----">---select---</option>
+       <option value="Royal">Royal</option>
+        <option value="Deluxe">Deluxe</option>
+        <option value="Normal">Normal</option>
+      </select>
+          </div>
+      </div>
+           
+      <div class="container">
+           
+    <div class="radio">
+        <label><input type="radio" name="food" value="Veg">Veg</label>
+    </div>
+    <div class="radio">
+        <label><input type="radio" name="food" value="Veg and Non-Veg">Veg and Non-Veg</label>
+    </div>
+           
+</div>
+            <br> <br> 
+           <div class="container">  
+          <div class="form-group">        
+      <div class="col-md-offset-1 col-md-10">
+             <input type="button" value="Previous"  class="btn btn-default" onclick="history.back()">
+          
+        <input type="submit" class="btn btn-default" value="Next">
+   
+        <input type="reset" class="btn btn-default" value="Reset">
+      </div>
+    </div>
+           </div>
+            </font>  
+            
+</form>
+    </center>
+    </body>
+</html>

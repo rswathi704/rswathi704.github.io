@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body background="image/feed.jpeg">
+         <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+   
+       <ul class="nav nav-tabs nav-justified">
+      
+           <li><a href="home"><b><font color="lightgrey">Home</font></b></a></li>
+           <li><a href="eventbooking"><b><font color="lightgrey">Book an Event</font></b></a></li>
+           <li><a href="customerstatus"><b><font color="lightgrey">Booking Status</font></b></a></li>
+           <li class="active"><a href="#"><b><font color="lightgrey">Feedback</font></b></a></li>
+           <li><a href="viewvenue.html"><b><font color="lightgrey">View Venue</font></b></a></li>
+           <li><a href="logout"><b><font color="lightgrey">Logout</font></b></a></li>
+    </ul>
+  </div>
+</nav>
+      <center> <font size="7" color="lightgrey" face="cooper" >FEEDBACK </font>
+          <br> <br>
+         
+      <div class="container">
+  
+  <form action="feedback" method="post">
+      
+  <div class="form-group">
+      <label class="control-label col-md-4" for="bid"></label>
+      <div class="col-md-4">          
+          <input type="text" class="form-control" id="bid" placeholder="Enter Booking ID" name="bid" required="required">
+          
+      </div>
+  </div>  
+     
+  <br> <br> <br> <br>
+ <div class="form-group">
+      <label class="control-label col-md-4" for="bid"></label>
+      <div class="col-md-4">          
+  <textarea name="feed" class="form-control" rows="10" cols="50" placeholder="Your Feedback is Valuable for Us!!!!"></textarea>
+      </div>
+ </div>
+  <br> <br>
+      
+      <div class="form-group">        
+      <div class="col-md-offset-1 col-md-10">
+          <input type="submit" class="btn btn-default" value="Submit">
+      </div>  
+      </div>
+      
+  </form>
+</div>
+      </center>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+ 
+.bgimg-1, .bgimg-2, .bgimg-3 ,.bgimg-4{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("image/2.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("image/3.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("image/1.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url("image/4.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4 {
+    background-attachment: scroll;
+  }
+}
+
+</style>
+
+</head>
+  
+<body>
+         <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+   
+    <ul class="nav nav-tabs nav-justified">
+      
+       <li><a href="index.html"><b><font color="grey">Home</font></b></a></li>
+        <li><a href="contactus.html"><b><font color="grey">Contact Us</font></b></a></li>
+        <li class="active"><a href="#"><b><font color="grey">About Us</font></b></a></li>
+        <li><a href="login.html"><b><font color="grey">Login</font> </b></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">ABOUT US</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">IVY & FAIRY LIGHTS EVENTS</h3>
+  <p> <b> We are an emerging Event Management Company in South India with its major operating hub located in the eventful
+          city of Bangalore, Karnataka. We offer event management services in all the emerging cities of South India.
+          Established in 2012 we own a vibrant profile of including diverse events with success and pride in every field.
+          We make every project an opportunity to connect, improve and innovate. We are deeply committed to out client's
+          success, striving to deliver the best possible result for them.
+          
+         
+          
+   </b></P>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p><PRE> Highlight Events:
+          1. ABC Wedding Expo 2019 @Holiday Inn, Kochi.
+          
+          2. Global IT Merriment 2018 @Info Park, Kochi.
+          
+          3. Real Realtors  Expo 2017 @Hilite Park, Hyderabad.
+          
+          4. Shop N Save Fest 2016 @Campaign Ground, Mumbai.
+          
+          5. Go Green, Stay Live-Green Campaign 2016 @JNL Ground, Chennai.
+          
+         Corporate Address:
+          www.facebook.com/ivyandfairylightsevents </pre> </p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>
+          We make every project an opportunity to connect , improve & innovate .</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border">THANK YOU</span>
+  </div>
+</div>
+
+</body>
+</html>

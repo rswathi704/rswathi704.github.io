@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <style>
+      label{
+          color:peachpuff;
+      }
+  </style>
+    </head>
+    <body background="image/134862.jpg">
+    <center>
+        <font size="10" color="lightgrey" face="Cooper">ADMIN</font>
+   
+      <br>
+      <br>
+      <br>
+<div class="container">
+    
+   
+  <form class="form-horizontal" action="admin" method="post">
+    <div class="form-group">
+      <label class="control-label col-md-4" for="user">User Name:</label>
+      <div class="col-md-5">
+          <input type="text" class="form-control" autocomplete="off" id="user" placeholder="Enter User Name" name="user">
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="control-label col-md-4" for="pass">Password:</label>
+      <div class="col-md-5">          
+          <input type="password" class="form-control" id="pass" placeholder="Enter Name" name="pass">
+      </div>
+    </div>
+       <div class="form-group">        
+      <div class="col-md-offset-1 col-md-10">
+           
+             <input type="button" value="Previous"  class="btn btn-default" onclick="history.back()">
+             <input type="submit" class="btn btn-default" value="Submit">
+   
+        <input type="reset" class="btn btn-default" value="Reset">
+      </div>
+    </div>
+  </form>
+</div>
+    </center> 
+        
+    </body>
+</html>
